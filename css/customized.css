@@ -1,0 +1,69 @@
+.html{
+    font-size: 16px;
+}
+.banner{
+    height: 500px;
+    display: flex;
+  align-items: center;
+}
+.line-separator{
+    width: 100px;
+    height: 2px;
+    background-color: #ffffff;
+}
+.contact-form{
+    background-color: #EEEEEE;
+    padding: 40px;
+}
+
+/* Backgrounds */
+.gray{
+    background-color: #EEEEEE;
+}
+.gray2{
+    background-color: #CCCCCC;
+}
+.pink1{
+    background-color: #DEB4AC;
+}
+.pink2{
+    background-color: #E15B6C;
+}
+
+/* Spacer */
+.spacer-60{
+    height: 60px;
+}
+.spacer-40{
+    height: 40px;
+}
+.spacer-20{
+    height: 20px;;
+}
+
+/* Section */
+.section-container{
+    padding: 60px 0px 60px 0px;
+}
+
+/* Fonts */
+.freight-font{
+    font-family: freight-big-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.letter-spacing{
+    letter-spacing: 3px;
+}
+.h1{
+    font-size: 3.75rem;
+}
+.h2{
+    font-size: 2.75rem;
+}
+
+/* Call to action button */
+.call-to-action-button{
+    position: relative;
+    top: -90px;
+}
