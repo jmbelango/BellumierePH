@@ -11,6 +11,12 @@
     height: 2px;
     background-color: #ffffff;
 }
+.line-spacer{
+    width: 5%;
+    height: 2px;
+    background-color: #E15B6C;
+    margin-bottom: 40px;
+}
 .contact-form{
     background-color: #EEEEEE;
     padding: 40px;
@@ -28,6 +34,12 @@
 }
 .pink2{
     background-color: #E15B6C;
+}
+.violet{
+    background-color: #895CA1;
+}
+.text-pink2{
+    color: #E15B6C;
 }
 
 /* Spacer */
@@ -67,3 +79,84 @@
     position: relative;
     top: -90px;
 }
+
+/*borders*/
+.pink2-border{
+    border:20px solid #E15B6C;
+}
+
+
+/* New Hover */
+.image-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .fading-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: all 0.3s;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80%;
+    width: 80%;
+    opacity: 0;
+    transition: .3s ease;
+  }
+
+  .icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .image-box:hover .overlay, .image-box:hover .fading-image {
+    opacity: 0.3;
+  }
+  .fa-user:hover {
+    color: #eee;
+  }
+  .image-box:hover .fading-image{
+    transform: scale(1.1);
+    transition: all 0.3s;
+  }
+
+  .translate-1{
+    transform: translate(15px, 17px);
+  }
+
+
+  /* ABout Us */
+  .element1{
+    z-index: 3;
+    top: 40px;
+    left: 17%;
+  }
+  .element2{
+    z-index: 1;
+    top: 60px;
+    left: 45px;
+  }
+
+  /* Services */
+  .services-box{
+      padding: 20px;
+      border: 1px solid #DEB4AC;
+      min-height: 478px;
+  }
+  @media only screen and (max-width: 600px) {
+    .services-box{
+        min-height: auto;
+    }
+  }
