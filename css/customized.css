@@ -1,6 +1,32 @@
 .html{
     font-size: 16px;
 }
+body{
+margin-top: 120px;
+/* Keyword values */
+font-smooth: auto;
+font-smooth: never;
+font-smooth: always;
+
+/* <length> value */
+font-smooth: 2em;
+}
+@media only screen and (max-width: 320px) {
+    body{
+        margin-top: 150px;
+        }
+}
+@media only screen and (max-width: 375px) {
+    body{
+        margin-top: 150px;
+        }
+}
+
+
+
+
+
+
 .banner{
     height: 500px;
     display: flex;
@@ -159,6 +185,9 @@
     .services-box{
         min-height: auto;
     }
+    .w-xs-75{
+        width: 250px !important;
+    }
   }
   .slider-text{
       margin: 0 auto !important;
@@ -166,6 +195,8 @@
   .nav-item{
       border-top: 2px solid #f2f2f2;
   }
-  .nav-item:hover{
-    border-top: 2px solid #E15B6C;
+  
+  .nav-item:hover, .nav-item.active{
+    border-top: 2px solid #E15B6C !important;
 }
+
