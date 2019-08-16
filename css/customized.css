@@ -30,7 +30,7 @@ font-smooth: 2em;
 .banner{
     height: 500px;
     display: flex;
-  align-items: center;
+    align-items: center;
 }
 .line-separator{
     width: 100px;
@@ -55,6 +55,9 @@ font-smooth: 2em;
 .gray2{
     background-color: #CCCCCC;
 }
+.gray3{
+    background-color: #707070;
+}
 .pink1{
     background-color: #DEB4AC;
 }
@@ -67,6 +70,35 @@ font-smooth: 2em;
 .text-pink2{
     color: #E15B6C;
 }
+
+/* Borders */
+.border-1px{
+    border: 1px;
+    border-style: solid;
+}
+.border-2px{
+    border: 2px;
+    border-style: solid;
+}
+.border-3px{
+    border: 3px;
+    border-style: solid;
+}
+.border-left{
+    border-left: 1px;
+    border-style: solid;
+}
+.border-pink1{
+    border-color: #DEB4AC;
+}
+.border-pink2{
+    border-color: #E15B6C;
+}
+.border-darkgray{
+    border-color: #707070;
+}
+
+
 
 /* Spacer */
 .spacer-60{
@@ -200,3 +232,39 @@ font-smooth: 2em;
     border-top: 2px solid #E15B6C !important;
 }
 
+/* Buttons About Us*/
+.button-customized{
+    border: 1px solid #E15B6C;
+    color: #E15B6C;
+    background: #ffffff;
+    border-radius: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.button-customized:hover{
+    background-color: #E15B6C;
+    color: #ffffff;
+}
+
+/* Costmetics */
+.cosmetics-box{
+    border: 1px solid #e2e2e2;
+    padding: 20px
+}
+.cosmetics-contacts{
+    border-left: 3px solid #E15B6C;
+    padding-left: 10px;
+}
+
+.line-divider{
+    height: 2px;
+}
+.line-80{
+    width: 80%;
+}
+.line-60{
+    width: 70%;
+}
+.line-60{
+    width: 60%
+}
